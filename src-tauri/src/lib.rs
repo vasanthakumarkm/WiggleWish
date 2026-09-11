@@ -3,6 +3,7 @@ use tauri::{
     tray::{MouseButton, MouseButtonState, TrayIconBuilder, TrayIconEvent},
     AppHandle, Emitter, Manager, WebviewWindow,
 };
+use tauri_plugin_autostart::MacosLauncher;
 
 #[cfg(windows)]
 use windows::Win32::UI::WindowsAndMessaging::{
@@ -57,6 +58,10 @@ fn create_tray_menu(app: &AppHandle) -> Result<Menu<tauri::Wry>, tauri::Error> {
 pub fn run() {
     tauri::Builder::default()
         .plugin(tauri_plugin_store::Builder::default().build())
+        .plugin(tauri_plugin_autostart::init(
+            MacosLauncher::LaunchAgent,
+            Some(vec!["--autostarted"]),
+        ))
         .invoke_handler(tauri::generate_handler![
             set_ignore_cursor_events,
             get_screen_width,
@@ -65,6 +70,13 @@ pub fn run() {
         ])
         .setup(|app| {
             let handle = app.handle().clone();
+
+            // Enable autostart by default
+            use tauri_plugin_autostart::ManagerExt;
+            let autostart_manager = app.autolaunch();
+            if !autostart_manager.is_enabled().unwrap_or(false) {
+                let _ = autostart_manager.enable();
+            }
 
             // Position window at top-left (spans full width)
             if let Some(window) = app.get_webview_window("main") {
