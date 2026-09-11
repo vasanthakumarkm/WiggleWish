@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/DeskCharms/main/assets/logo.png" alt="DeskCharms Logo" width="120">
+  <img src="assets/logo.png" alt="DeskCharms Logo" width="120">
 </p>
 
 <h1 align="center">✨ DeskCharms ✨</h1>
@@ -15,7 +15,8 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/DeskCharms/main/assets/demo.gif" alt="DeskCharms Demo" width="300">
+  <!-- Add demo.gif here after recording -->
+  <!-- <img src="assets/demo.gif" alt="DeskCharms Demo" width="300"> -->
 </p>
 
 ---
@@ -25,7 +26,8 @@
 DeskCharms is a delightful desktop companion that displays a small, interactive lucky charm hanging from the top of your screen. With realistic rope physics, ritual animations, and a collection of traditional lucky charms from around the world, it adds a touch of magic to your desktop.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/DeskCharms/main/assets/charms-preview.png" alt="Available Charms" width="400">
+  <!-- Add charms-preview.png here after creating it -->
+  <!-- <img src="assets/charms-preview.png" alt="Available Charms" width="400"> -->
 </p>
 
 ---
@@ -97,7 +99,7 @@ DeskCharms is a delightful desktop companion that displays a small, interactive 
 ## 🚀 Installation
 
 ### Download Release
-1. Go to [Releases](https://github.com/yourusername/DeskCharms/releases)
+1. Go to [Releases](https://github.com/YOUR_USERNAME/DeskCharms/releases)
 2. Download the latest `.msi` or `.exe` installer
 3. Run the installer
 4. Find DeskCharms in your Start Menu or System Tray
@@ -111,7 +113,7 @@ DeskCharms is a delightful desktop companion that displays a small, interactive 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/DeskCharms.git
+git clone https://github.com/YOUR_USERNAME/DeskCharms.git
 cd DeskCharms
 
 # Install dependencies
