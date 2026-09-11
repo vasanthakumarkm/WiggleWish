@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "DeskCharms",
+  "productName": "WiggleWish",
   "version": "1.0.0",
-  "identifier": "com.deskcharms.app",
+  "identifier": "com.wigglewish.app",
   "build": {
     "beforeDevCommand": "npm run dev",
     "devUrl": "http://localhost:1420",
@@ -13,7 +13,7 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "DeskCharms",
+        "title": "WiggleWish",
         "width": 250,
         "height": 280,
         "x": 800,

@@ -596,20 +596,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "deskcharms"
-version = "1.0.0"
-dependencies = [
- "serde",
- "serde_json",
- "tauri",
- "tauri-build",
- "tauri-plugin-autostart",
- "tauri-plugin-store",
- "window-vibrancy 0.5.3",
- "windows 0.58.0",
-]
-
-[[package]]
 name = "digest"
 version = "0.10.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4182,6 +4168,20 @@ dependencies = [
  "thiserror 2.0.20",
  "windows 0.61.3",
  "windows-core 0.61.2",
+]
+
+[[package]]
+name = "wigglewish"
+version = "1.0.0"
+dependencies = [
+ "serde",
+ "serde_json",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-autostart",
+ "tauri-plugin-store",
+ "window-vibrancy 0.5.3",
+ "windows 0.58.0",
 ]
 
 [[package]]

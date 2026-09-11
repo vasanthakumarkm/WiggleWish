@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/logo.png" alt="DeskCharms Logo" width="120">
+  <img src="assets/logo.png" alt="WiggleWish Logo" width="120">
 </p>
 
-<h1 align="center">✨ DeskCharms ✨</h1>
+<h1 align="center">✨ WiggleWish ✨</h1>
 
 <p align="center">
   <strong>A tiny lucky charm that lives on your Windows desktop</strong>
@@ -16,14 +16,14 @@
 
 <p align="center">
   <!-- Add demo.gif here after recording -->
-  <!-- <img src="assets/demo.gif" alt="DeskCharms Demo" width="300"> -->
+  <!-- <img src="assets/demo.gif" alt="WiggleWish Demo" width="300"> -->
 </p>
 
 ---
 
-## 🎯 What is DeskCharms?
+## 🎯 What is WiggleWish?
 
-DeskCharms is a delightful desktop companion that displays a small, interactive lucky charm hanging from the top of your screen. With realistic rope physics, ritual animations, and a collection of traditional lucky charms from around the world, it adds a touch of magic to your desktop.
+WiggleWish is a delightful desktop companion that displays a small, interactive lucky charm hanging from the top of your screen. With realistic rope physics, ritual animations, and a collection of traditional lucky charms from around the world, it adds a touch of magic to your desktop.
 
 <p align="center">
   <!-- Add charms-preview.png here after creating it -->
@@ -99,10 +99,10 @@ DeskCharms is a delightful desktop companion that displays a small, interactive 
 ## 🚀 Installation
 
 ### Download Release
-1. Go to [Releases](https://github.com/YOUR_USERNAME/DeskCharms/releases)
+1. Go to [Releases](https://github.com/YOUR_USERNAME/WiggleWish/releases)
 2. Download the latest `.msi` or `.exe` installer
 3. Run the installer
-4. Find DeskCharms in your Start Menu or System Tray
+4. Find WiggleWish in your Start Menu or System Tray
 
 ### Build from Source
 
@@ -113,8 +113,8 @@ DeskCharms is a delightful desktop companion that displays a small, interactive 
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/DeskCharms.git
-cd DeskCharms
+git clone https://github.com/YOUR_USERNAME/WiggleWish.git
+cd WiggleWish
 
 # Install dependencies
 npm install
@@ -168,7 +168,7 @@ The built installer will be in `src-tauri/target/release/bundle/`
 ## 📁 Project Structure
 
 ```
-DeskCharms/
+WiggleWish/
 ├── src/                    # React frontend
 │   ├── components/         # UI components
 │   │   ├── Charm.tsx       # Charm rendering & animations

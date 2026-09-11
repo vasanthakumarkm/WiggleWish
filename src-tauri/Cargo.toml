@@ -1,12 +1,12 @@
 [package]
-name = "deskcharms"
+name = "wigglewish"
 version = "1.0.0"
 description = "A tiny lucky charm that lives on your desktop"
-authors = ["DeskCharms"]
+authors = ["WiggleWish"]
 edition = "2021"
 
 [lib]
-name = "deskcharms_lib"
+name = "wigglewish_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [build-dependencies]
