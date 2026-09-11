@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Background circle -->
+  <circle cx="60" cy="60" r="55" fill="#1a1a2e" stroke="#4a7c59" stroke-width="3"/>
+
+  <!-- Rope -->
+  <path d="M60 10 Q55 30, 60 50 Q65 70, 58 85"
+        fill="none"
+        stroke="#8b7355"
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+  <!-- Anchor point -->
+  <circle cx="60" cy="12" r="5" fill="#666"/>
+  <circle cx="60" cy="12" r="3" fill="#888"/>
+
+  <!-- Charm glow -->
+  <circle cx="58" cy="85" r="20" fill="url(#glow)" opacity="0.6"/>
+
+  <!-- Charm (Nazar eye) -->
+  <circle cx="58" cy="85" r="18" fill="#1e90ff"/>
+  <circle cx="58" cy="85" r="12" fill="#fff"/>
+  <circle cx="58" cy="85" r="7" fill="#1e90ff"/>
+  <circle cx="58" cy="85" r="4" fill="#000"/>
+  <circle cx="56" cy="83" r="2" fill="#fff" opacity="0.8"/>
+
+  <!-- Sparkles -->
+  <text x="25" y="45" font-size="12" fill="#ffd700">✦</text>
+  <text x="90" y="60" font-size="10" fill="#ffd700">✧</text>
+  <text x="80" y="35" font-size="8" fill="#ffd700">✦</text>
+
+  <!-- Gradient definitions -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd700" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffd700" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

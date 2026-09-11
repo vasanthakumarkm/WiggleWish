@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.tauri.app/config/2/capability",
+  "identifier": "default",
+  "description": "Default capability for DeskCharms",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-set-ignore-cursor-events",
+    "core:window:allow-set-position",
+    "core:window:allow-show",
+    "core:window:allow-set-focus",
+    "store:default"
+  ]
+}
